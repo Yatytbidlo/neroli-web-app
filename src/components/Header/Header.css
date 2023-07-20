@@ -2,10 +2,16 @@
     width: 100%;
     height: 50px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 0 20px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
 }
 
 .username {
-    margin-left: auto;
+    font-style: italic;
+}
+
+h3 {
+    margin-bottom: 10px;
 }

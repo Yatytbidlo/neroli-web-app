@@ -5,13 +5,12 @@ import './Header.css'
 
 const Header = () => {
 
-    const {user, onClose} = useTelegram()
+    const {user} = useTelegram()
 
     return (
         <div className={'header'}>
-            <Button onClick={onClose}>Close</Button>
-            <span className={'username'}>
-                {user?.username}
+            <h3>Авторский парфюм от Neroli</h3>
+            <span className={'username'}> Добро пожаловать {user?.username}😉
             </span>
         </div>
     );

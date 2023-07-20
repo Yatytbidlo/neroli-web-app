@@ -8,11 +8,14 @@
 }
 
 .img {
-    width: 100%;
-    background: #2f2f2f;
-    height: 100px;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
     background: var(--tg-theme-button-color);
+}
+
+.img img {
+    width: 30%;
+    margin: 0 auto 0 365px;
 }
 
 .description {

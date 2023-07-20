@@ -36,6 +36,11 @@ button {
 
 .title {
   padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.price span {
+  font-size: 16px;
 }
 
 

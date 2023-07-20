@@ -9,6 +9,8 @@ const products = [
     {id: '3', title: '50мл', price: 75000, description: '200 пшиков на 100 дней +в подарок новинка пробник "Grape"'}
 ]
 
+
+
 const getTotalPrice = (items = []) => {
     return items.reduce((acc, item) => {
         return acc += item.price
@@ -40,6 +42,8 @@ const ProductList = () => {
             })
         }
     }
+
+
 
     return (
         <div className={'list'}>
