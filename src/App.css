@@ -2,10 +2,40 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Arial";
 }
-
 
 body {
   background: var(--tg-theme-bg-color);
   color:var(--tg-theme-text-color);
 }
+
+button {
+  border: none;
+  background: var(--tg-theme-button-color);
+  color: var(--tg-theme-button-text-color);
+  outline: none;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+.productitem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  border: 3px solid #2d2d2d;
+  margin-bottom: 20px;
+}
+
+.description {
+  padding-bottom: 10px;
+  font-style: italic;
+}
+
+.title {
+  padding-bottom: 10px;
+}
+
+
