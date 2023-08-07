@@ -14,3 +14,7 @@
     text-align: center;
     color: var(--tg-theme-text-color);
 }
+
+.productitem {
+    border-radius: 25px;
+}

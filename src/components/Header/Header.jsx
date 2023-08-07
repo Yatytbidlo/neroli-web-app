@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <div className={'header'}>
             <h3>Авторский парфюм от Neroli</h3>
-            <span className={'username'}> Добро пожаловать {user?.username}😉
+            <span className={'username'}> Добро пожаловать {user?.username}!
             </span>
         </div>
     );

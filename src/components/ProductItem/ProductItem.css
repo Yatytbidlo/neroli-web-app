@@ -24,6 +24,15 @@
     color:  var(--tg-theme-hint-color);
 }
 
+.secondimage:first-child {
+    display: none;
+}
+
 .add-btn {
     width: 100%;
+}
+
+.buttonadd-btn {
+    margin-top: 10px;
+    border-radius: 15px;
 }
