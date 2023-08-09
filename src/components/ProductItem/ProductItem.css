@@ -2,7 +2,6 @@
 .product {
     display:flex;
     flex-direction: column;
-    border: 1px solid var(--tg-theme-button-color);
     padding: 15px;
     width: 178px;
 }
@@ -10,7 +9,6 @@
 .img {
     display: flex;
     align-items: center;
-    background: var(--tg-theme-bg-color);
 }
 
 .img img {
@@ -21,7 +19,7 @@
 .description {
     font-size: 0.8em;
     text-align: center;
-    color:  var(--tg-theme-hint-color);
+    color: whitesmoke;
 }
 
 .secondimage:first-child {
@@ -35,4 +33,13 @@
 .buttonadd-btn {
     margin-top: 10px;
     border-radius: 15px;
+    color: whitesmoke;
+}
+
+.price {
+    color: whitesmoke;
+}
+
+.title {
+    color: whitesmoke;
 }
