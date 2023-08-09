@@ -17,6 +17,6 @@
 
 .productitem {
     border-radius: 15px;
-    border: 2px solid black;
+    border: 3mm ridge #c2c2c2;
     background-color: #1f2020;
 }

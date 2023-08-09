@@ -20,6 +20,7 @@
     font-size: 0.8em;
     text-align: center;
     color: whitesmoke;
+    opacity: 0.8;
 }
 
 .secondimage:first-child {
@@ -42,4 +43,5 @@
 
 .title {
     color: whitesmoke;
+    margin-top: 20px;
 }
