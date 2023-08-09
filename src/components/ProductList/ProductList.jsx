@@ -77,7 +77,7 @@ const ProductList = () => {
                 className={'item'}
                 />
             ))}
-            <p className={'delivery'}>Доставка бесплатная!</p>
+            <h3 className={'delivery'}>Доставка бесплатная!</h3>
         </div>
     );
 };
